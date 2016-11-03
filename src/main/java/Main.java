@@ -7,6 +7,7 @@ import java.io.IOException;
 /**
  * Main class to start the application, main method accepts exactly one argument what is the path to the resource files
  * NOTE : provided path should be an absolute path (i.e. C:\Users\syrovo01\Projects\hubrick\src\main\resources)
+ * NOTE : running from command-line : java -jar HubrickStatistics.jar data
  * Created by syrovo01 on 21.10.2016.
  */
 public class Main {

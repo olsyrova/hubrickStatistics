@@ -44,7 +44,7 @@
 					<!-- make an executable jar with main class -->
 					<archive>
 						<manifest>
-							<mainClass></mainClass>
+							<mainClass>Main</mainClass>
 						</manifest>
 					</archive>
 
