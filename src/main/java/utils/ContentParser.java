@@ -1,7 +1,7 @@
-package refactored.utils;
+package utils;
 
-import refactored.domain.Department;
-import refactored.domain.Employee;
+import domain.Department;
+import domain.Employee;
 
 import java.io.File;
 import java.io.FileNotFoundException;

@@ -1,8 +1,6 @@
-package refactored;
-
 import org.apache.log4j.Logger;
-import refactored.statistics.StatisticsCalculatorService;
-import refactored.statistics.StatisticsCalculatorServiceImpl;
+import statistics.StatisticsCalculatorService;
+import statistics.StatisticsCalculatorServiceImpl;
 
 import java.io.IOException;
 

@@ -1,7 +1,7 @@
-package refactored.statistics;
+package statistics;
 
-import refactored.domain.Employee;
-import refactored.utils.MathUtils;
+import domain.Employee;
+import utils.MathUtils;
 
 import java.util.LinkedHashMap;
 import java.util.List;

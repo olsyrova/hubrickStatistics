@@ -1,14 +1,11 @@
-package refactored.statistics;
+package statistics;
 
-import refactored.domain.Employee;
-import refactored.utils.ContentParser;
-import refactored.utils.CsvWriter;
+import domain.Employee;
+import utils.ContentParser;
+import utils.CsvWriter;
 
 import java.io.IOException;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
 
 /**
  * class combining functionality of statistics calculations and writing data to files
@@ -33,7 +30,8 @@ public class StatisticsCalculatorServiceImpl implements StatisticsCalculatorServ
 		CsvWriter.writeToCsv(
 				StatisticsCalculator.calculateMedianIncomeByDepartment(employees),
 				StatisticsCalculatorService.MEDIAN_INCOME_BY_DEPARTMENT,
-				StatisticsCalculatorService.DEPARTMENT + DELIMITER + StatisticsCalculatorService.INCOME);
+				StatisticsCalculatorService.DEPARTMENT + DELIMITER + StatisticsCalculatorService.INCOME
+		);
 	}
 
 	/**

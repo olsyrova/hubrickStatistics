@@ -1,5 +1,4 @@
-package refactored.statistics;
-
+package statistics;
 /**
  * Created by syrovo01 on 21.10.2016.
  */

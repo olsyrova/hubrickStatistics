@@ -1,4 +1,4 @@
-package refactored.domain;
+package domain;
 
 /**
  * Created by syrovo01 on 02.11.2016.

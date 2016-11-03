@@ -1,4 +1,4 @@
-package refactored.statistics;
+package statistics;
 
 import java.io.IOException;
 
